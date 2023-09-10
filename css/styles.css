@@ -1,0 +1,210 @@
+:root{
+    --link-activ-color:#2196F3;
+    --background-global-color:#fff;
+    --dark-section-color:#2F303A;
+    --light-section-color:#F5F4FA;
+    --titele-subtitel-nav-color:#212121 ;
+    --content-color:#757575;
+    --black-logo:#000000;
+    --background-list: #EEEEEE;
+
+}
+
+/* General */
+
+ul {
+    list-style-type: none;
+}
+
+
+/* STUDIO */
+
+
+
+/* Global Header */
+
+.global-header .logo-header {
+    text-decoration: none;
+    color: var(--black-logo);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.global-header .logo-header .color-logo-header{
+    color: var(--link-activ-color);
+}
+
+.global-header .nav-link{
+    color: var(--titele-subtitel-nav-color);
+        text-decoration: none;
+}
+
+.global-header .nav-link:hover{
+    color: var(--link-activ-color);
+}
+
+#current {
+    color: var(--link-activ-color);
+}
+
+body {
+    background-color: var(--background-global-color);
+    font-family: "roboto", sans-serif;
+}
+
+
+
+
+/* About Section */
+
+.main-section .about-section .dark-section {
+    background-color: var(--dark-section-color);
+}
+
+.main-section .about-section .main-button {
+    font-family: inherit;
+    background-color: var(--link-activ-color);
+    color: var(--background-global-color);
+    cursor: pointer;
+}
+
+.main-section .about-section .main-button:hover{
+color: var(--titele-subtitel-nav-color);
+}
+
+.main-section h1 {
+    color: var(--background-global-color);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+}
+
+.main-section h2 {
+    color: var(--titele-subtitel-nav-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;}
+
+.main-section .about-section .subtitle-paragraph{
+color: var(--titele-subtitel-nav-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+}
+
+.main-section .about-section .content-paragraph{
+    color: var(--content-color);
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+}
+
+
+
+
+ /* Team Section */
+
+ .main-section .team-section {
+     background-color: var(--light-section-color);
+ }
+
+ .main-section .team-section .team-name {
+     color: var(--titele-subtitel-nav-color);
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 19px;
+     letter-spacing: 0.03em;
+ }
+
+ .main-section .team-section .description-team {
+     color: var(--content-color);
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 19px;
+     letter-spacing: 0.03em;
+ }
+
+
+
+
+
+ /* Portofolio */
+
+/* Main Portofolio Section */
+
+
+/* Buttons */
+.main-portofolio-section .portofolio-button:hover {
+    color: var(--background-global-color);
+    background-color: var(--link-activ-color);
+}
+.main-portofolio-section .portofolio-button {
+    font-family: inherit;
+    color: var(--titele-subtitel-nav-color);
+    cursor: pointer;
+}
+
+/* List */
+
+.main-portofolio-section{
+    background-color: var(--background-list);
+}
+
+.main-portofolio-section .list-main-section .title-img {
+    color: var(--titele-subtitel-nav-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+.main-portofolio-section .list-main-section .subtitle-img {
+    color: var(--content-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+
+
+
+
+ /* Global Footer */
+
+.global-footer{
+    background-color: var(--dark-section-color);
+}
+
+.global-footer .address-footer-global span,
+.global-footer .address-footer-global .address-footer
+{
+    color: var(--background-global-color);
+    font-style: normal;
+    text-decoration: none;
+}
+.global-footer .address-footer-global .address-footer:hover{
+    color: var(--link-activ-color);
+}
+
+.global-footer .logo-footer{
+color: var(--background-global-color);
+text-decoration: none;
+font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.global-footer .logo-footer .color-logo-footer{
+    color: var(--link-activ-color);
+}
+
+
