@@ -7,8 +7,7 @@
     --content-color:#757575;
     --black-logo:#000000;
     --background-list: #EEEEEE;
-    --active-buttons-portofolio: #ffa500;
-    ;
+    --background-btn: #0513ad;
 
 }
 
@@ -86,7 +85,7 @@ body {
 }
 
 .main-section .about-section .main-button:hover{
-color: var(--titele-subtitel-nav-color);
+background-color: var(--background-btn);
 }
 
 .main-section h1 {
@@ -156,14 +155,13 @@ color: var(--titele-subtitel-nav-color);
 
 
 /* Buttons */
-.main-portofolio-section .portofolio-button:hover {
+.main-portofolio-section .portofolio-button:hover,
+.main-portofolio-section .portofolio-button:focus {
     color: var(--background-global-color);
     background-color: var(--link-activ-color);
 }
 
-.main-portofolio-section .portofolio-button:focus{
-    color: var(--active-buttons-portofolio);
-}
+
 .main-portofolio-section .portofolio-button {
     font-family: inherit;
     color: var(--titele-subtitel-nav-color);
