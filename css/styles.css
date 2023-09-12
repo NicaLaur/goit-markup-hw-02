@@ -7,8 +7,11 @@
     --content-color:#757575;
     --black-logo:#000000;
     --background-list: #EEEEEE;
+    --active-buttons-portofolio: #ffa500;
+    ;
 
 }
+
 
 /* General */
 
@@ -41,6 +44,10 @@ ul {
 .global-header .nav-link{
     color: var(--titele-subtitel-nav-color);
         text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0.02em;
 }
 
 .global-header .nav-link:hover{
@@ -54,6 +61,7 @@ ul {
 body {
     background-color: var(--background-global-color);
     font-family: "roboto", sans-serif;
+
 }
 
 
@@ -70,6 +78,11 @@ body {
     background-color: var(--link-activ-color);
     color: var(--background-global-color);
     cursor: pointer;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.06em;
+
 }
 
 .main-section .about-section .main-button:hover{
@@ -101,9 +114,11 @@ color: var(--titele-subtitel-nav-color);
 
 .main-section .about-section .content-paragraph{
     color: var(--content-color);
-        font-size: 14px;
-        line-height: 24px;
-        letter-spacing: 0.03em;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.03em;
+            
 }
 
 
@@ -145,10 +160,18 @@ color: var(--titele-subtitel-nav-color);
     color: var(--background-global-color);
     background-color: var(--link-activ-color);
 }
+
+.main-portofolio-section .portofolio-button:focus{
+    color: var(--active-buttons-portofolio);
+}
 .main-portofolio-section .portofolio-button {
     font-family: inherit;
     color: var(--titele-subtitel-nav-color);
     cursor: pointer;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0.03em;
 }
 
 /* List */
@@ -182,12 +205,27 @@ color: var(--titele-subtitel-nav-color);
     background-color: var(--dark-section-color);
 }
 
-.global-footer .address-footer-global span,
+.global-footer .address-footer-global span{
+        color: var(--background-global-color);
+        font-style: normal;
+        text-decoration: none;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0.03em;
+    }
+
+
+
 .global-footer .address-footer-global .address-footer
 {
     color: var(--background-global-color);
     font-style: normal;
     text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.03em;
 }
 .global-footer .address-footer-global .address-footer:hover{
     color: var(--link-activ-color);
